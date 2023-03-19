@@ -1,0 +1,6 @@
+const prompt = require("prompt-sync")()
+
+const preco1 = Number(prompt("Qual o valor do jantar? "))
+const total = preco1 / 10
+const total2 = total + preco1
+console.log("O valor do jantar é " + preco1 + " taxa do garçom + 10% " + " = " + total2)
